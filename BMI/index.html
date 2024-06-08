@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, rgba(232, 121, 193, 0.9), rgba(13, 165, 125, 0.954)); 
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            max-width: 400px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 18px 18px 20px rgba(0, 0, 0, 0.1); 
+        }
+        .result {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            color: white;
+        }
+        .underweight {
+            background-color: #f39c12; 
+        }
+        .normal {
+            background-color: #2ecc71; 
+        }
+        .overweight {
+            background-color: #e67e22; 
+        }
+        .obese {
+            background-color: #e74c3c; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">BMI Calculator</h1>
+        <form>
+            <div class="form-group">
+                <label for="weight">Weight (kg):</label>
+                <input type="number" class="form-control" id="weight" placeholder="Enter your weight in kg">
+            </div>
+            <div class="form-group">
+                <label for="height">Height (m):</label>
+                <input type="number" class="form-control" id="height" step="0.01" placeholder="Enter your height in meters">
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" class="form-control" id="age" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select class="form-control" id="gender">
+                    <option value="">Select your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <button type="button" class="btn btn-primary btn-block" onclick="calculateBMI()">Calculate BMI</button>
+        </form>
+        <div class="result text-center" id="result"></div>
+    </div>
+    
+    <!-- Bootstrap JS and Popper.js CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
