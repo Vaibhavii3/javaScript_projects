@@ -9,6 +9,7 @@ This repository contains several JavaScript projects I have worked on. Each proj
 3. [String Manipulation](#string-manipulation)
 4. [Tip Calculator](#tip-calculator)
 5. [Traffic Light](#traffic-light)
+6. [Hangman Game](#hangman-game)
 
 ## BMI Calculator
 
@@ -69,6 +70,18 @@ The Traffic Light project simulates a traffic light system, changing colors at r
 1. Clone the repository: git clone https://github.com/Vaibhavii3/javaScript_projects
 2. Navigate to the project directory: cd Traffic light
 3. Open index.html in a web browser.
+
+## Hangman Game
+
+### Description
+This is a simple Hangman game implemented using HTML, CSS, and JavaScript. The game allows you to guess letters to find a hidden word. You have a limited number of attempts to guess the word correctly.
+
+![Hangman IMG](Hangman/display.png)
+
+### How to Run
+1. Clone the repository: git clone https://github.com/Vaibhavii3/javaScript_projects
+2. Navigate to the project directory: cd hangman
+3. Open index.html in a web browser.   
 
 ## Contributing
 If you would like to contribute to this repository, feel free to fork the project and submit a pull request.
