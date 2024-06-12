@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5aab9e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+#game {
+    background-color: #aee4dc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 300px;
+}
+
+h1{
+    color: #fff;
+    text-shadow: 5px 8px 10px rgba(0, 0, 0.3);
+}
+
+#wordDisplay {
+    font-size: 24px;
+    letter-spacing: 5px;
+    margin: 20px 0;
+}
+
+
+input, button {
+    margin: 10px 0;
+}
+
+button {
+    cursor: pointer;
+}
