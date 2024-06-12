@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+#traffic-light {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.light {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+    border-radius: 50%;
+    background-color: #555;
+}
+
+.red {
+    background-color: #555;
+}
+
+.yellow {
+    background-color: #555; 
+}
+
+.green {
+    background-color: #555;
+}
+
+.on {
+    background-color: red;
+}
+
+.yellow.on {
+    background-color: yellow;
+}
+
+.green.on {
+    background-color: green;
+}
