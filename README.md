@@ -37,7 +37,7 @@ The Number Game is an interactive game where the user tries to guess a randomly 
 ## String Manipulation
 
 ### Description
-The String Manipulation project contains various functions that perform different operations on strings, such as reversing a string, changing case, and finding substrings using JavaScript string methods and operators.
+The String Manipulation project contains various functions that perform different operations on strings, such as reversing a string, changing case, and Check Palindeome using JavaScript string methods and operators.
 
 ![String IMG](String/display.png)
 
@@ -63,7 +63,7 @@ The Tip Calculator is a simple program that calculates the amount of tip to be g
 ### Description
 The Traffic Light project simulates a traffic light system, changing colors at regular intervals to mimic the operation of a real traffic light using JavaScript switch cases and setInterval function.
 
-![Traffic-light IMG](Traffic-light/display.png)
+![Traffic-Light IMG](Traffic-Light/display.png)
 
 ### How to Run
 1. Clone the repository: git clone https://github.com/Vaibhavii3/javaScript_projects
