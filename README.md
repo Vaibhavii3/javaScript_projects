@@ -80,7 +80,7 @@ This is a simple Hangman game implemented using HTML, CSS, and JavaScript. The g
 
 ### How to Run
 1. Clone the repository: git clone https://github.com/Vaibhavii3/javaScript_projects
-2. Navigate to the project directory: cd hangman
+2. Navigate to the project directory: cd Hangman
 3. Open index.html in a web browser.   
 
 ## Contributing
