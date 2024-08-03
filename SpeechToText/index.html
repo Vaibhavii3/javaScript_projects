@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <h2> Speech to Text Converter</h2>
+        
+        
+        
+        <label for="languageSelect">Choose Language:</label>
+        <select id="languageSelect">
+            <option value="en-US">English</option>
+            <option value="hi-IN">Hindi</option>
+            <option value="gu-IN">Gujarati</option>
+            
+            
+            
+        </select>
+        <button id="themeSwitcher" onclick="toggleTheme()">
+            <i class="fas fa-sun"></i> 
+            <i class="fas fa-moon" style="display:none;"></i> 
+        </button>
+
+        <div id="result"></div>
+
+        <div class="button-container">
+
+                <button onclick="startConverting()">
+                    <i class="fa fa-microphone"></i>
+                </button>
+
+                <button onclick="stopConverting()">
+                    <i class="fa fa-stop"></i>
+                </button>
+                <button onclick="resultElement.innerHTML = ''; speak('Cleared')">
+                    <i class="fas fa-trash-alt"></i>
+                </button>
+
+        </div>
+
+
+    </div>    
+
+    <script src="scripts.js"></script>
+</body>
+</html>
