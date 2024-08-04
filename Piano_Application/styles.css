@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+body {
+    background: linear-gradient(to bottom, #4f008a, #b149bb); 
+    min-height: 100vh;
+    transition: background-color 0.5s ease; 
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.piano {
+    display: flex;
+}
+
+.key {
+    height: calc(var(--width) * 4);
+    width: var(--width);
+    transition: background-color 0.2s ease;
+    position: relative;
+}
+
+.white {
+    --width: 100px;
+    background: linear-gradient(to bottom, #ffffff, #f3f3f3);
+    border: 1px solid #333;
+    border-radius: 0px 0px 10px 10px;
+    color: #333;
+}
+
+.white:active {
+    background-color: #ccc;
+}
+
+.black{
+    --width: 60px;
+    background: linear-gradient(to bottom, #000000, #333333);
+    margin-left: calc(var(--width) / -2);
+    margin-right: calc(var(--width) / -2);
+    z-index: 2;
+    border-radius: 0px 0px 8px 8px ;
+    color: #fff;
+}
+
+.note-label {
+    font-size: 12px;
+    color: inherit;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.black:active{
+    background-color: #333;
+}
+
+.key.active {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.key.white {
+    background: linear-gradient(to bottom, #fff, #ddd);
+}
+
+.key.black {
+    background: linear-gradient(to bottom, #333, #000);
+}
+
+.key:hover {
+    cursor: pointer;
+    filter: brightness(1.2);
+}
