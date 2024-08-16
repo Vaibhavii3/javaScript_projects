@@ -10,6 +10,16 @@ This repository contains several JavaScript projects I have worked on. Each proj
 4. [Tip Calculator](#tip-calculator)
 5. [Traffic Light](#traffic-light)
 6. [Hangman Game](#hangman-game)
+7. [Age Calculator](#age-calculator)
+8. [Color Generator](#color-generator)
+9. [Expenss Tracker](#expenss-tracker)
+10. [FD Calculator](#fd-calculator)
+11. [Pass Generator](#pass-generator)
+12. [Piano Application](#piano-application)
+13. [PopOver](#popover)
+14. [Robot Joke Generator](#robot-joke-generator)
+15. [SpeechToText](#SpeechToText)
+16. [Vowel Checker](#vowel-checker)
 
 ## BMI Calculator
 
