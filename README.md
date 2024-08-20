@@ -1,6 +1,6 @@
 # My JavaScript Projects
 
-This repository contains several JavaScript projects I have worked on. Each project is self-contained and demonstrates various programming concepts and techniques, such as operators, if-else statements, and switch cases. Below is a brief description of each project along with instructions on how to run them.
+This repository contains several JavaScript projects I have worked on. Each project is self-contained and demonstrates various programming concepts and techniques, such as operators, if-else statements, and switch cases. 
 
 ## Table of Contents
 
