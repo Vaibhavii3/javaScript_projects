@@ -1,0 +1,99 @@
+html {
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background: url(https://cdn.pixabay.com/photo/2023/12/14/22/56/roofs-8449752_640.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 2rem;
+    display: inline-block;
+    background-color: hotpink;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: darkorchid;
+}
+
+.modal{
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.open{
+    display: flex;
+}
+
+.modal_overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.modal_content{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 2px solid hotpink;
+    box-sizing: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    animation: slideIn 0.3 ease;
+    overflow: hidden;
+    transform-origin: center;
+}
+
+@keyframes slideIn {
+    from{
+        transform: translateY(-20px);
+    }
+
+    to{
+        transform: translateY(0);
+    }
+}
+
+.modal_content h1{
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.modal_content p{
+    color: darkblue;
+    line-height: 1.5;
+}
