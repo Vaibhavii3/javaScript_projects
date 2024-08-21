@@ -20,6 +20,7 @@ This repository contains several JavaScript projects I have worked on. Each proj
 14. [Robot Joke Generator](#robot-joke-generator)
 15. [SpeechToText](#SpeechToText)
 16. [Vowel Checker](#vowel-checker)
+17. [Modal Application](#modal-application)
 
 ## BMI Calculator
 
