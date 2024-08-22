@@ -22,6 +22,7 @@ This repository contains several JavaScript projects I have worked on. Each proj
 16. [Vowel Checker](#vowel-checker)
 17. [Modal Application](#modal-application)
 18. [Color Flipper](#color-flipper)
+19. [Star Rating](#star_rating)
 
 ## BMI Calculator
 
