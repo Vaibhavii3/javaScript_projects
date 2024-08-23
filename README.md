@@ -23,6 +23,7 @@ This repository contains several JavaScript projects I have worked on. Each proj
 17. [Modal Application](#modal-application)
 18. [Color Flipper](#color-flipper)
 19. [Star Rating](#star_rating)
+20. [Animated Counter](#animated-counter)
 
 ## BMI Calculator
 
