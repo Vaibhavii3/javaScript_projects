@@ -24,6 +24,7 @@ This repository contains several JavaScript projects I have worked on. Each proj
 18. [Color Flipper](#color-flipper)
 19. [Star Rating](#star_rating)
 20. [Animated Counter](#animated-counter)
+21. [Animated Cursor](#animated-cursor)
 
 ## BMI Calculator
 
