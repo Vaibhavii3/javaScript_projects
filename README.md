@@ -25,6 +25,8 @@ This repository contains several JavaScript projects I have worked on. Each proj
 19. [Star Rating](#star_rating)
 20. [Animated Counter](#animated-counter)
 21. [Animated Cursor](#animated-cursor)
+22. [Image Comparison](#image-comparison)
+23. [Quick URLs](#quick-urls)
 
 ## BMI Calculator
 
